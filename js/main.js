@@ -19,4 +19,13 @@ $(document).ready(function () {
         });
     });
 
+
+    $('#burger-action').click(function () {
+        $('#menu').toggleClass('active');
+    })
+
+    $('#close-menu-action').click(function () {
+        $('#menu').toggleClass('active');
+    })
+
 });

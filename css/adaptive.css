@@ -1,23 +1,23 @@
 @media screen and (max-width: 1229px) {
-    #menu {
+    .menu {
         margin: 0;
     }
 
-    #header-container {
+    .header-container {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    #main-container {
+    .main-container {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    #main-image {
+    .main-image {
         max-width: 400px;
     }
 
-    #main-image img {
+    .main-image img {
         max-width: 100%;
     }
 
@@ -25,146 +25,146 @@
         margin: 12px;
     }
 
-    #products-items {
+    .products-items {
         justify-content: center;
     }
 
-    #order-container {
+    .order-container {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    #order-image {
+    .order-image {
         width: 200px;
     }
 
-    #footer-container {
+    .footer-container {
         padding-left: 20px;
         padding-right: 20px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    #menu {
+    .menu {
         width: 420px;
     }
 
-    #main-container {
+    .main-container {
         flex-direction: column;
         padding-top: 70px;
     }
 
-    #main-info {
+    .main-info {
         order: 2;
     }
 
-    #main-info h1 {
+    .main-info h1 {
         text-align: center;
     }
 
-    #main-action {
+    .main-action {
         text-align: center;
     }
 
-    #main-image {
+    .main-image {
         order: 1;
         margin-bottom: 30px;
     }
 
-    #products-container {
+    .products-container {
         padding-top: 70px;
     }
 
-    #products-items {
+    .products-items {
         margin-top: 20px;
     }
 
-    #order-container {
+    .order-container {
         padding-top: 50px;
         position: relative;
         justify-content: center;
     }
 
-    #order-form {
+    .order-form {
         margin-left: 20px;
     }
 
-    #order-image {
+    .order-image {
         position: absolute;
         z-index: -1;
         right: calc(50% - 400px);
     }
 
-    #order-image img {
+    .order-image img {
         position: static;
     }
 }
 
 @media screen and (max-width: 767px) {
-    #header-container {
+    .header-container {
         justify-content: center;
         flex-wrap: wrap;
     }
 
-    #menu {
+    .menu {
         order: 3;
         margin-top: 15px;
         flex-basis: 100%;
         justify-content: center;
     }
 
-    #menu a.menu-item {
+    .menu a.menu-item {
         margin: 0 5px;
     }
 
-    #cart {
+    .cart {
         margin-left: 20px;
     }
 
-    #rights {
+    .rights {
         margin: 0;
     }
 
-    #footer-container {
+    .footer-container {
         justify-content: space-between;
     }
 
-    #main-info h1 {
+    .main-info h1 {
         line-height: 45px;
     }
 
-    #order-container {
+    .order-container {
         flex-wrap: wrap;
         text-align: center;
     }
 
-    #order-text-title {
+    .order-text-title {
         line-height: 35px;
     }
 
-    #order-text-message {
+    .order-text-message {
         margin-top: 25px;
         margin-bottom: 25px;
     }
 
-    #order-form {
+    .order-form {
         margin: 0 10px;
     }
 
-    #order-image {
+    .order-image {
         right: calc(50% - 200px);
     }
 }
 
 @media screen and (max-width: 649px) {
-    #main-advantages {
+    .main-advantages {
         max-width: 300px;
         margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 424px) {
-    #menu {
+    .menu {
         display: none;
         position: fixed;
         width: 100%;
@@ -179,23 +179,23 @@
         left: 0;
     }
 
-    #burger {
+    .burger {
         display: block;
         margin-right: 20px;
     }
 
-    #burger svg {
+    .burger svg {
         width: 36px;
         height: 36px;
         fill: #f9d6a6;
     }
 
-    #menu.open {
+    .menu.open {
         display: flex;
     }
 
 
-    #menu svg {
+    .menu svg {
         display: block;
         width: 24px;
         fill: rgb(164, 107, 0);
@@ -204,22 +204,22 @@
         left: 20px;
     }
 
-    #menu a.menu-item {
+    .menu a.menu-item {
         margin: 15px 5px;
     }
 }
 
 /* 320 - 374 */
 @media screen and (max-width: 374px) {
-    #main-info h1 {
+    .main-info h1 {
         font-size: 38px;
     }
 
-    #order-form input {
+    .order-form input {
         width: 290px;
     }
 
-    #rights {
+    .rights {
         margin-left: 10px;
     }
 }

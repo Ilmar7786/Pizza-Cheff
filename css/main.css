@@ -22,10 +22,12 @@ body {
     margin: 0;
     font-family: MullerRegular, sans-serif;
 }
+
 .header {
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
 }
+
 .header-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -49,17 +51,20 @@ body {
     width: 85px;
     margin-left: 8px;
 }
+
 .menu {
     margin: 0 261px 0 248px;
     width: 490px;
     display: flex;
     justify-content: space-between;
 }
+
 .menu a.menu-item {
     font-size: 16px;
     color: rgb(164, 107, 0);
     text-decoration: none;
 }
+
 .main-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -68,9 +73,11 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
 .main-info {
     max-width: 622px;
 }
+
 .main-info h1 {
     font-size: 45px;
     font-family: "MullerExtraBold", sans-serif;
@@ -79,9 +86,11 @@ body {
     line-height: 1.222;
     margin: 0;
 }
+
 .main-info h1 span {
     color: #ffaf18;
 }
+
 .main-advantages {
     margin-top: 13px;
     display: flex;
@@ -125,24 +134,29 @@ body {
     box-sizing: border-box;
     cursor: pointer;
 }
+
 .main-action {
     margin-top: 60px;
 }
+
 .main-action .btn {
     width: 224px;
     display: inline-block;
 }
+
 .products-container {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 161px;
 }
+
 .products-title {
     font-size: 35px;
     font-family: "MullerBold", sans-serif;
     color: rgb(189, 152, 92);
     text-align: center;
 }
+
 .products-items {
     margin-top: 60px;
     display: flex;
@@ -186,9 +200,11 @@ body {
 .product .product-image {
     height: 155px;
 }
+
 .order {
     overflow: hidden;
 }
+
 .order-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -197,27 +213,33 @@ body {
     justify-content: space-between;
     align-items: flex-end;
 }
+
 .order-text {
     max-width: 384px;
 }
+
 .order-text-title {
     font-size: 35px;
     font-family: "MullerExtraBold", sans-serif;
     color: #b99150;
     line-height: 1.286;
 }
+
 .order-text-title span {
     color: rgb(255, 175, 24);
 }
+
 .order-text-message {
     font-size: 16px;
     color: rgb(185, 145, 80);
     line-height: 1.5;
     margin-top: 65px;
 }
+
 .order-form {
     max-width: 330px;
 }
+
 .order-form input {
     border-width: 1px;
     border-color: rgb(185, 145, 80);
@@ -234,6 +256,7 @@ body {
 ::placeholder {
     color: rgb(203, 168, 110);
 }
+
 .order-form button.btn {
     width: 100%;
     box-sizing: border-box;
@@ -245,6 +268,7 @@ body {
     width: 282px;
     position: relative;
 }
+
 .order-image img {
     position: absolute;
     bottom: -30px;
@@ -263,14 +287,21 @@ body {
     display: flex;
     align-items: center;
 }
+
 .rights {
     font-size: 12px;
     color: rgb(186, 179, 179);
     margin-left: 358px;
 }
+
 .burger {
     display: none;
 }
+
+.active {
+    display: flex !important;
+}
+
 .menu svg {
     display: none;
 }
@@ -310,6 +341,7 @@ img.mfp-img {
     color: red;
     display: none;
 }
+
 .order-form label:nth-child(3) div {
     bottom: 47%;
 }
@@ -417,6 +449,7 @@ img.mfp-img {
         transform: rotate(360deg);
     }
 }
+
 #loader {
     position: fixed;
     display: none;
@@ -427,6 +460,7 @@ img.mfp-img {
     align-items: center;
     background: rgba(0, 0, 0, 0.55);
 }
+
 .thanks {
     padding: 216px 0 115px 0;
     box-sizing: border-box;
@@ -435,6 +469,7 @@ img.mfp-img {
     height: 698px;
     display: none;
 }
+
 .thanks div {
     box-shadow: 0px 0 8px 2px #00000038;
     padding: 70px;
